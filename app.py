@@ -17,6 +17,7 @@ DB_PORT = "5432"
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
+#testcommit
 def create_connection():
     retry_count = 5
     while retry_count > 0:
